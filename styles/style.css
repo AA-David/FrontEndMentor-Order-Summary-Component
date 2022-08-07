@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background: #dee6fd;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+body .content {
+  margin: 3vh;
+}
+
+body picture {
+  position: absolute;
+  z-index: -100;
+}
+
+body .all {
+  margin-top: -19px;
+}
+
+body .hero {
+  display: block;
+  margin: 0;
+  margin-top: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+body .container {
+  margin: 0;
+  padding: 10px;
+  background: #fff;
+  border-radius: 0 0 10px 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+          box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+body .container h1 {
+  margin-top: 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+body .container .desc {
+  text-align: center;
+}
+
+body .container .prices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+  background: #f8f9fe;
+  border-radius: 10px;
+}
+
+body .container .prices .plan {
+  margin-left: 20px;
+}
+
+body .container .prices .music-note {
+  height: 50px;
+}
+
+body .container .prices h2 {
+  margin-bottom: 0;
+}
+
+body .container .prices .price {
+  margin-top: 0;
+  color: #69708d;
+}
+
+body .container .change {
+  margin-left: 20px;
+  color: #382ae1;
+}
+
+body .container .change:hover {
+  color: #857bd9;
+}
+
+body .button {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+body .button p {
+  padding: 10px;
+  background: #382ae1;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+body .button:hover p {
+  background: #766cf1;
+}
+
+body .cancel {
+  color: #69708d;
+  text-align: center;
+  text-decoration: none;
+}
+
+body .cancel p {
+  font-weight: 900;
+}
+
+body .cancel:hover {
+  color: #9095ac;
+}
+
+@media (min-width: 400px) {
+  .content {
+    position: relative;
+  }
+  .hero {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
+  .container {
+    width: 375px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 50%);
+            transform: translate(-50%, 50%);
+  }
+}
+/*# sourceMappingURL=style.css.map */
